@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_PulseMeasurement_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_PulseMeasurement" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1743001fs"></ZoomEndTime>
+      <Cursor1Time time="795000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="245"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+      <marker time="521000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_PulseMeasurement/iClk" type="logic">
+      <obj_property name="ElementShortName">iClk</obj_property>
+      <obj_property name="ObjectShortName">iClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/iNReset" type="logic">
+      <obj_property name="ElementShortName">iNReset</obj_property>
+      <obj_property name="ObjectShortName">iNReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/iEnable" type="logic">
+      <obj_property name="ElementShortName">iEnable</obj_property>
+      <obj_property name="ObjectShortName">iEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/iPulse" type="logic">
+      <obj_property name="ElementShortName">iPulse</obj_property>
+      <obj_property name="ObjectShortName">iPulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/oHalfDone" type="logic">
+      <obj_property name="ElementShortName">oHalfDone</obj_property>
+      <obj_property name="ObjectShortName">oHalfDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/oDone" type="logic">
+      <obj_property name="ElementShortName">oDone</obj_property>
+      <obj_property name="ObjectShortName">oDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/oFirstEdge" type="logic">
+      <obj_property name="ElementShortName">oFirstEdge</obj_property>
+      <obj_property name="ObjectShortName">oFirstEdge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/oHighDuration" type="array">
+      <obj_property name="ElementShortName">oHighDuration[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oHighDuration[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/oLowDuration" type="array">
+      <obj_property name="ElementShortName">oLowDuration[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oLowDuration[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/oPeriod" type="array">
+      <obj_property name="ElementShortName">oPeriod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oPeriod[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_PulseMeasurement/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
