@@ -26,7 +26,7 @@ end pulse_measurement;
 architecture rtl of pulse_measurement is
 
   constant PULSE_WIDTH : natural := 4;
-`
+  
   signal counter_r      : unsigned(31 downto 0) := (others => '0');
   signal high_dur_r     : unsigned(31 downto 0) := (others => '0');
   signal low_dur_r      : unsigned(31 downto 0) := (others => '0');
